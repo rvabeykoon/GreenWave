@@ -1,0 +1,118 @@
+/*  Background color:       #3a4a58
+    Title color:            #996633
+    Text color:             #666666
+    Text Dark color:        #333333
+    Table Heading color:    #C4CDD6
+    Table Alternate color:  #e5e8ed 
+*/
+
+body {
+   background-color: #339966;
+  color: #8c8c8c;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  margin: 0;
+}
+
+.gw-container {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gw-main-content { background-color: #ffffff; }
+
+#gw-intro-img {
+  background-image: url(img01.jpeg);
+  background-position: center;
+  background-size: cover;
+  min-height: 425px;
+
+}
+
+.gw-text-white { color: white; }
+
+.gw-page-header-container { text-align: center; }
+
+.gw-page-header {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.gw-page-icon {
+  display: inline-block;
+  vertical-align: baseline;
+  padding: 15px;
+}
+/* subscribe prat ...................*/
+ 
+#gw-subscribe {
+  background: #255B5C;
+  border-radius: 12px;
+  padding: 5px;
+}
+#gw-subscribe .gtco-heading h2 {
+  color: #fff;
+}
+#gw-subscribe .form-control {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px !important;
+  width: 50%;
+  border: 2px solid transparent !important;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+#gw-subscribe .form-control:focus {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.8) !important;
+}
+#gw-subscribe .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+#gw-subscribe .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+#gw-subscribe .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+#gw-subscribe .form-control:-ms-input-placeholder {
+  color: #fff;
+}
+#gw-subscribe .btn {
+  height: 54px;
+  border: none !important;
+  background: #DBAA4B;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 12px;
+}
+#gw-subscribe .form-inline .form-group {
+  width: 80% !important;
+  margin-bottom: 10px;
+  margin-left: 75px;
+}
+#gw-subscribe .form-inline .form-group .form-control {
+  width: 100%;
+}
+#gw-subscribe .gtco-heading {
+  margin-bottom: 30px;
+}
+#gw-subscribe .gtco-heading h2 {
+  margin-bottom: 10px;
+}
+
