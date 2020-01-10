@@ -1,4 +1,4 @@
- /*  Background color:       #3a4a58/  #339966
+  /*  Background color:       #3a4a58/  #339966
     Title color:            #996633 / #8c8c8c;
     Text color:             #666666
     Text Dark color:        #333333
@@ -7,28 +7,33 @@
 */
 
 body {
-   background-color: #339966;
-  color: #8c8c8c;
+  background-color: #339966;
+  color: black;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 400;
   padding: 15px;
   margin: 0;
+  /*background-image: url(bg02.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;*/
 }
 
 .gw-container {
-  max-width: 640px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.gw-main-content { background-color: #ffffff; }
+.gw-main-content { background-color: /*#B2B2B2;*/#ffffff; }
 
 #gw-intro-img {
   background-image: url(img01.jpeg);
   background-position: center;
   background-size: cover;
-  min-height: 350px;
+  min-height: 450px;
+  border-image: 1px;
 
 }
 
@@ -58,14 +63,96 @@ body {
   padding: 1px; 
 }
 
-.tm-contact-link {
+.gw-contact-link {
   color: #255B5C;
   font-weight: 600;
   text-decoration: none;
 }
 
 a { transition: all 0.3s ease; }
-.tm-contact-link:hover { color: #DBAA4B; }
+.gw-contact-link:hover { color: #DBAA4B; }
 
 }
- 
+/* about prat ...................*/
+.gw-nevi{
+position: fixed;
+}
+
+.gw-section-header {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.gw-section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+/* log in page ..................*/
+.gw-log{
+
+	width: 400px;
+	height: 375px;
+	background: #255B5C;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 12px;
+
+}
+.gw-avatar{
+
+width: 100px;
+height: 100px;
+position: absolute;
+top: -50px;
+left: calc(33%);
+}
+
+
+.gw-log p{
+	margin:5px; 
+	padding:0px;
+	font-weight: bold;
+}
+.gw-log input{
+	width: 200px;
+	margin: 20px;
+}
+.gw-log input[type="text"],input[type="password"]{
+	border:none; 
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline: none;
+	height:12px;
+	color: #fff;
+	font-size: 12px;
+}
+.gw-log input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 50px;
+	background: #DBAA4B;
+	color: #fff;
+	font-size: 18px;
+	border-radius:12px;
+	font-weight: bold;
+	border: 2px solid #fff;
+}
+
+.tdetails{
+
+	padding-left: 60px;
+}
+
