@@ -1,0 +1,350 @@
+<html>
+
+<head>
+<title>Eco Tips</title>
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #255B5C;
+  border-radius: 12px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  size: 156px;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #DBAA4B;
+}
+.button {
+  background-color:#255B5C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #DBAA4B;
+
+
+
+ /*.mySlides {display: none;}*/
+ 
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+</style>
+
+<body bgcolor="#339966" style="font-family:Lucida Sans Unicode;">
+
+<div align="center">
+	<table cellpadding="0" cellspacing="0" width="1012" height="2800">
+		<!-- MSTableType="layout" --><tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td width="467"></td>
+			<td></td>
+			<td></td>
+			<td height="21"></td>
+		</tr>
+		<tr>
+			<td valign="top" rowspan="13" bgcolor="#cfe6d7" width="20">&nbsp;</td>
+			<td valign="top" colspan="4"  bgcolor="#cfe6d7">
+			&nbsp;</td>
+			<td valign="top" bgcolor="#cfe6d7" rowspan="13" width="29">&nbsp;</td>
+
+			<td height="23"></td>
+		</tr>
+		<tr>
+			<td valign="top" rowspan="3" bgcolor="#cfe6d7">
+			&nbsp;</td>
+			<td valign="top" bgcolor="#cfe6d7" rowspan="3" width="276">
+			<p align="center">
+			<img border="0" src="orglogo2.png" width="154" height="155"></td>
+
+			<td valign="top" bgcolor="#cfe6d7" colspan="2">
+			&nbsp;</td>
+
+			<td height="46"></td>
+		</tr>
+		<tr>
+			<td valign="top" bgcolor="#cfe6d7" colspan="2">
+			<p align="left"><b><font size="20">G r e e n&nbsp; W a v e</font></b></td>
+
+			<td height="74"></td>
+		</tr>
+		<tr>
+			<td valign="top" bgcolor="#cfe6d7" colspan="2">
+			&nbsp;</td>
+
+			<td height="41"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="4" bgcolor="#cfe6d7" >&nbsp;</td>
+
+			<td height="23"></td>
+		</tr>
+		<tr>
+			<td valign="top" bgcolor="#cfe6d7" colspan="4">&nbsp;<font size="4"> <!-- navi bar -->
+
+			<center>   
+            <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Our Services page.html">Our Services</a></li>
+            <li><a href="Contact page.html">Contact</a></li>
+            <li><a href="Terms & Conditions.html">Terms & Conditions</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Eco tips .html">ECO Tips </a></li>
+            <li><a href="upload page.html">Upload </a></li>
+            <li><a href="index.html">Log Out </a></li>
+           </ul>
+           </center>
+			</font></td>
+
+			<td height="58"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="4" bgcolor="#cfe6d7">&nbsp;</td>
+
+			<td height="23"></td>
+		</tr>
+		<tr>
+			<td valign="top" width="108" bgcolor="#cfe6d7" rowspan="3" >
+			&nbsp;</td>
+			<td valign="top" colspan="2" bgcolor="#cfe6d7" >
+			<p align="center"><font size="5"><b>ECO Tips</b></font></td>
+			<td valign="top" width="110" bgcolor="#cfe6d7" rowspan="3">
+			&nbsp;</td>
+
+			<td height="59"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="2" bgcolor="#cfe6d7" height="330">
+			 <center>
+    <div class="mySlides fade">
+  <img border="0" src="../web%20project/group/Trees.jpg" width="490" height="327">
+</div>
+<div class="mySlides fade">
+  <img border="0" src="../web%20project/group/Trees01.jpg" width="490" height="327">
+</div>
+<div class="mySlides fade">
+   <img border="0" src="../web%20project/group/Trees02.jpg" width="490" height="327">
+</div>
+
+<div  >
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+        </td>
+
+			<td height="400"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="2" bgcolor="#cfe6d7" width="100">
+			<p align="justify"><b>Planting a Tree</b><br>
+			Planting a tree is a lifelong investment. How well this investment 
+			grows depends on the type of tree selected and the planting 
+			location, the care provided during planting, and the follow-up care 
+			after planting. Getting your new tree off to a healthy start will 
+			help the tree mature to its full size and ensures it will provide 
+			environmental, economic, and social benefits throughout its 
+			lifetime. <a href="New_TreePlanting.pdf">read more</a></p>
+			<p align="justify"><b>When to Plant</b><br>
+			Ideally, trees are planted during the dormant season – in the fall 
+			after leaf drop or in early spring before budbreak. Weather 
+			conditions are cool and allow plants to establish roots in the new 
+			location before spring rains and summer heat stimulate new top 
+			growth. Healthy balled and burlapped or container trees, however, 
+			can be planted throughout the growing season if given appropriate 
+			care. In tropical and subtropical climates where trees grow year 
+			round, any time is a good time to plant a tree, provided that 
+			sufficient water is available.</p>
+			<p align="justify"><b>Planting Stress</b><br>
+			Balled and burlapped trees lose a significant portion of their root 
+			system when dug at the nursery. As a result, trees commonly exhibit 
+			what is known as “transplant shock.” Transplant shock is a state of 
+			slowed growth and reduced vitality following transplanting. 
+			Container trees may also experience transplant shock, particularly 
+			if they have circling or kinked roots that must be cut. Proper site 
+			preparation, careful handling to prevent further root damage, and 
+			good follow-up care reduces transplant shock and promotes faster 
+			recovery.</p>
+			<p align="justify"><b>Steps for Planting</b><br>
+			Locate all underground utilities prior to digging.<br>
+			Identify the trunk flare. The trunk flare is where the trunk expands 
+			at the base of the tree. This point should be partially visible 
+			after the tree has been planted.<br>
+			Dig a shallow, broad planting hole. Holes should be 2-3 times wider 
+			than the root ball, but only as deep as the root ball.<br>
+			Remove the containers or cut away the wire basket. Inspect container 
+			tree root balls for circling roots. Straighten, cut, or remove them.<br>
+			Place the tree at the proper height. Take care to dig the hole to 
+			the proper depth – and no more. If the tree is planted too deep, new 
+			roots will have difficulty developing because of a lack of oxygen.<br>
+			Straighten the tree in the hole. Before backfilling, have someone 
+			view the tree from several directions to confirm it is straight.<br>
+			Fill the hole gently, but firmly. Pack soil around the base of the 
+			root ball to stabilize it. Fill the remainder of the hole, firmly 
+			packing the soil to eliminate air pockets that may dry out roots. 
+			Further reduce air pockets by watering periodically while 
+			backfilling. Avoid fertilization at the time of planting.<br>
+			Stake the tree, if necessary. Studies have shown that trees 
+			establish more quickly and develop stronger trunk and root systems 
+			if they are not staked at the time of planting.<br>
+			Mulch the base of the tree. Mulch is organic matter spread around 
+			the base of a tree to hold moisture, moderate soil temperature 
+			extremes, and reduce grass and weed competition.
+			<a href="ProperMulching.pdf">read more</a><br>
+			Provide follow-up care. Keep the soil moist, but not water-logged. 
+			Water trees at least once a week, barring rain, and more frequently 
+			during hot, windy weather</p>
+			<p align="justify"><b>Avoiding Tree and Utility Conflicts</b><br>
+			Determining where to plant a tree is a decision that should not be 
+			taken lightly. Many factors should be considered prior to planting. 
+			When planning what type of tree to plant, remember to look up and 
+			look down to determine where the tree will be located in relation to 
+			overhead and underground utility lines.
+			<a href="Avoiding_Conflicts.pdf">read more</a>&nbsp; </p>
+			<p align="justify"><b>Overhead Lines</b><br>
+			Overhead utility lines are easy to spot, yet often overlooked. 
+			Planting tall-growing trees under or near these lines eventually 
+			requires your utility provider to prune them to maintain safe 
+			clearance from the wires. This pruning may result in the tree having 
+			an unnatural appearance. Periodic pruning can also lead to a 
+			shortened life span for the tree.<br>
+			<br>
+			Tall-growing trees near overhead lines can cause service 
+			interruptions when trees contact wires. Children or adults climbing 
+			in these trees can be severely injured or even killed if they come 
+			in contact with the wires. Proper selection and placement of trees 
+			in and around overhead utilities can eliminate potential public 
+			safety hazards, reduce expenses for utilities and their customers, 
+			and improve landscape appearance.<br>
+			<br>
+			<b>Underground Lines</b><br>
+			Trees consist of much more than what you see above ground. Many 
+			times, the root area below ground is larger than the branch spread. 
+			Many of the utility services provided today run below ground. Tree 
+			roots and underground lines often coexist without problems. However, 
+			trees planted near underground lines could have their roots damaged 
+			if the lines are dug up for repair.<br>
+			<br>
+			The greatest danger to underground lines occurs during planting. 
+			Before you plant, make sure that you are aware of the location of 
+			any underground utilities. To be certain that you do not 
+			accidentally dig into any lines and risk serious injury or a costly 
+			service interruption, call your utility company or utility locator 
+			service first. Never assume that these utility lines are buried 
+			deeper than you plan to dig.</p>
+			 
+			<p align="justify">&nbsp;</td>
+			<td height="1054"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="4" bgcolor="#cfe6d7">
+			&nbsp;</td>
+
+			<td height="23"></td>
+		</tr>
+		<tr>
+			<td valign="top" bgcolor="#cfe6d7" colspan="4">
+			<hr>
+			<p align="center"><b><font size="6" color="#000000">Talk to us</font></b></p>
+			<p align="center">E-mail: <a href="mailto:greenwave@gmail.com">
+			greenwave@gmail.com</a></p>
+			<p align="center">Tele: 071-19319540 <hr></td>
+
+			<td height="183"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="4" bgcolor="#cfe6d7">
+			&nbsp;</td>
+
+			<td height="33"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="6">
+			<!-- MSCellType="empty" -->
+			&nbsp;</td>
+			<td height="23" width="2"></td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>
