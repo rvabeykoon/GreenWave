@@ -1,23 +1,22 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Green-Wave</title>
 	<link rel="stylesheet" type="text/css" href="greenwave.css">
 </head>
-<body>
-<div class="gw-container">
-	<div class="gw-page-header-container gw-text-white">
-		<img src="orglogo2.png" width="60px" height="60px"> <!--enter logo-->
-		<h1 class="gw-page-header"> GREEN WAVE</h1> <!--enter web name-->
-	</div>
+<body style="font-family:Lucida Sans Unicode;background-image: url(bg.jpg);
+  background-size: cover; background-attachment: fixed;
+  background-repeat: no-repeat;"
+>
+
 
 	<div class="gw-main-content">
     <div class="gw-log">
     <img src="orglogo2.png" class="gw-avatar" height="50%" width="50%" >
     <h1><center>LOGIN HERE</center></h1>
-    <form name="loginpage" action="gw-login.php" method="POST"><center>
+    <form name="loginpage" action="login.php" method="POST"><center>
       <P align="left">Username</P>
-      <input type="text" name="stuid" placeholder="            Enter Username">
+      <input type="text" name="username" placeholder="            Enter Username">
       <p align="left">Password</p>
       <input type="password" name="password" placeholder="             Enter Password">
       <input type="submit" name="submit" value="Login">

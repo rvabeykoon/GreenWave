@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Upload Reviews</title>
+<title>Upload Photos</title>
 </head>
 <style>
 ul {
@@ -107,7 +107,7 @@ li a:hover {
 			<td valign="top" bgcolor="#cfe6d7" colspan="6">&nbsp;<font size="4"> <!-- navi bar -->
 
 			<center>   
-              <ul>
+             <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="our_Services.html">Our Services</a></li>
             <li><a href="terms_&_conditions.html">Terms & Conditions</a></li>
@@ -117,7 +117,6 @@ li a:hover {
             <li><a href="Contact.html">Contact</a></li>
             <li><a href="logout.php" >Log Out </a></li>
                        </ul>
-
 
            </center>
 			</font></td>
@@ -133,7 +132,7 @@ li a:hover {
 			</tr>
 		<tr>
 			<td valign="top" colspan="6" bgcolor="#cfe6d7" >
-			<p align="center"><b><font size="5">Upload Your Reviews&nbsp; </font>
+			<p align="center"><b><font size="5">Upload Your Photos&nbsp; </font>
 			</b></td>
 
 			<td height="74"></td>
@@ -141,25 +140,25 @@ li a:hover {
 		<tr>
 			<td valign="top" bgcolor="#cfe6d7" width="92">
 			&nbsp;</td>
-			<td valign="top" bgcolor="#255B5C" colspan="2" >
+			<td valign="top" bgcolor="#255B5C" colspan="2" width="50">
 			&nbsp;</td>
 			<td valign="top" colspan="2" bgcolor="#255B5C" align="center" width="100">
 			&nbsp;<p>&nbsp;</p>
-			<form method="POST" action="ecotips.php" enctype="multipart/form-data">
+			<form method="POST" action="uploads.php" enctype="multipart/form-data">
 				<!--webbot bot="FileUpload" U-File="fpweb:///_private/form_results.csv" S-Format="TEXT/CSV" S-Label-Fields="TRUE" -->
 				<p align="left">&nbsp;<font color="#FFFFFF"><font size="3">User Name :</font>&nbsp;</font>&nbsp;
 				<input type="text" name="username" size="29" style="border-radius:12px;"  placeholder="  Your User Name.."></p>
 				<p align="left">&nbsp;<font color="#FFFFFF"><font size="3">Date :</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<input type="text" name="date" size="27" style="border-radius:12px;"  placeholder="  Enter Date.."></p>
-				<p align="left">&nbsp;<font size="3" color="#FFFFFF">Your Reviews :</font><br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea rows="21" name="tips" cols="47" style="border-radius:12px;"  placeholder="  Reviews.."></textarea></p>
+				<p align="left">&nbsp;<font size="3" color="#FFFFFF">Description :</font>
+				<textarea rows="3" name="description" cols="30" style="border-radius:12px;"  placeholder="  Description.."></textarea></p>
 				<p align="left"><font color="#FFFFFF">&nbsp;<font size="3">Photo :</font>&nbsp;&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<font size="3">
 				<input type="file" name="photo" size="20" style="font-weight: 700 border-radius:12px;"></font></p>
 				<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
 				<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="3"> 
 				<input type="submit" value="Submit" name="submit" style="font-size: 12pt; font-weight: 700; border-radius:12px; background-color:#DBAA4B; padding: 15px 32px;" ></font>&nbsp;&nbsp;&nbsp;
-				<input type="reset" value="Reset" name="B2" style="font-size: 12pt; font-weight: 700; border-radius:12px; background-color:#DBAA4B; padding: 15px 32px; "></p><br>
+				<input type="reset" value="Cancel" name="B2" style="font-size: 12pt; font-weight: 700; border-radius:12px; background-color:#DBAA4B; padding: 15px 32px; "></p>
 			</form>
 </td>
 

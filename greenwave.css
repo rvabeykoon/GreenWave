@@ -7,17 +7,16 @@
 */
 
 body {
-  background-color: #339966;
   color: black;
   font-family: "Lucida Sans Unicode",Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 400;
   padding: 15px;
   margin: 0;
-  /*background-image: url(bg02.jpeg);
+  background-image: url(bg.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
 
 .gw-container {
@@ -34,6 +33,7 @@ body {
   background-size: cover;
   min-height: 450px;
   border-image: 1px;
+  
 
 }
 
