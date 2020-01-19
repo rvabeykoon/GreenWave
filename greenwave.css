@@ -1,4 +1,4 @@
-  /*  Background color:       #3a4a58/  #339966
+/*  Background color:       #3a4a58/  #339966
     Title color:            #996633 / #8c8c8c;
     Text color:             #666666
     Text Dark color:        #333333
@@ -9,7 +9,7 @@
 body {
   background-color: #339966;
   color: black;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Lucida Sans Unicode",Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 400;
   padding: 15px;
@@ -29,7 +29,7 @@ body {
 .gw-main-content { background-color: /*#B2B2B2;*/#ffffff; }
 
 #gw-intro-img {
-  background-image: url(img01.jpeg);
+  background-image: url(GREENWAVE.jpg);
   background-position: center;
   background-size: cover;
   min-height: 450px;
@@ -155,4 +155,3 @@ left: calc(33%);
 
 	padding-left: 60px;
 }
-
